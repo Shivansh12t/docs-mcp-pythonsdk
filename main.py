@@ -76,6 +76,7 @@ async def get_docs(query: str, library: str):
     return text
 
 def main():
+    print("server is starting...")
     mcp.run(transport="stdio")
 
 if __name__ == "__main__":

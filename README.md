@@ -49,3 +49,8 @@ SERPER_API_KEY=<your_api_key>
 }
 ```
 4. Restart Claude & If you see a Hammer Sign near the Chatbox, Congrats your MCP is Up and Running
+
+### Use MCP inspector
+```shell
+npx @modelcontextprotocol/inspector uv run main.py
+```
