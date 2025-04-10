@@ -29,6 +29,12 @@ uv pip sync
 ```
 SERPER_API_KEY=<your_api_key>
 ```
+### Add MCP Server to VSCode Copilot chat
+1. go to `.vscode/mcp.json`
+2. update the args to your absolute path to the mcp server
+3. It should be up and running in `Agent Mode`
+4. If you are having any issues, visit [Use MCP Servers in VSCode Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_use-mcp-tools-in-agent-mode)
+
 ### Add MCP to Client - here Claude Desktop
 1. Open Claude Desktop, go to settings `shift + ,`
 2. `Edit Configurations`

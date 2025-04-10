@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "langchain-docs-eg": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "--directory",
+                "C:/Users/Shivansh Tuteja/Desktop/Codes/automation-ai/intro-to-mcps/docs-mcp-server-pythonsdk/", // absolute path to your mcp server
+                "run",
+                "main.py"
+            ]
+        }
+    }
+}
